@@ -153,4 +153,57 @@ p{
   box-shadow: 20px 10px 20px 10px  rgb(245, 240, 240);
 }
 
-
+/***Services***/
+.services{
+  position: relative;
+  background: black;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+.serviceinfo{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.serviceinfo h1{
+  color: var(--primary-purple);
+  padding-bottom: 100px;
+}
+.servicecol{
+  flex-basis: 32%;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  background: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: black;
+}
+.webdesign{
+  width: 35%;
+  border-radius: 50%;
+}
+.webdevelopment{
+  border-radius: 50%;
+  width: 20%;
+}
+.socialmediaads{
+  border-radius: 50%;
+  width: 25%;
+}
+.servicecol p{
+  padding: 0;
+  text-align: center;
+}
+.servicecol h3{
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.servicecol:hover{
+  background: rgb(241, 194, 241);
+}
